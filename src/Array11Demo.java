@@ -6,5 +6,8 @@ public class Array11Demo {
         int[] arr3 = {1, 2, 3, 4};
 
         System.out.println(Array11.array11(arr1,2));
+        System.out.println(Array11.array11(arr2,1));
+        System.out.println(Array11.array11(arr3,1));
+
     }
 }
