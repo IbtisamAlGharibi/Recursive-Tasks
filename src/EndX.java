@@ -4,6 +4,8 @@ public class EndX {
             return " ";
         }else if (str.charAt(0) == 'x'){
             return String.valueOf(str.charAt(str.length()) == 'x');
+        } else if (!(str.charAt(0) == 'x')) {
+            return str;
         }
     }
 }
