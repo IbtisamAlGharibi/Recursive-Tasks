@@ -9,5 +9,6 @@ public class Count8 {
         } else if (lastDigit == 8 && !(lastDigit+1 ==8)) {
             return 1;
         }
+        return 0;
     }
 }
