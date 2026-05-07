@@ -4,6 +4,8 @@ public class StrCopies {
             return true;
         } else if (str.length()< sub.length()) {
             return false;
+        } else if (str.substring(0,2).equals(sub)){
+            return strCopies(str.substring(1), sub, n - 1);
         }
     }
 }
