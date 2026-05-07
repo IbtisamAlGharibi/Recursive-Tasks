@@ -7,5 +7,6 @@ public class EndX {
         } else if (!(str.charAt(0) == 'x')) {
             return str;
         }
+        return str.charAt(0) + endX(str.substring(1));
     }
 }
