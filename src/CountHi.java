@@ -4,6 +4,8 @@ public class CountHi {
             return 0;
         }else if (str.substring(0, 2) =="Hi"){
             return 1;
+        } else if (!(str.substring(0, 2) =="Hi")) {
+            return 1 + countHi(str.substring(2));
         }
 
     }
