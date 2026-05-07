@@ -3,6 +3,6 @@ public class StrCountDemo {
     public static void main(String[] args){
         System.out.println(StrCount.strCount("catcowcat", "cat"));
         System.out.println(StrCount.strCount("catcowcat", "cow"));
-        System.out.println(StrCount.strCount("catcowcat", "dog"));
+        System.out.println(StrCount.strCount("catcowcat", "frog"));
     }
 }
