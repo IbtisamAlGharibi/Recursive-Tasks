@@ -4,7 +4,7 @@ public class StrCount {
         if (str.length() < sub.length()){
             return 0;
         } else if (str.startsWith(sub)) {
-            return count = 1;
+            return  1 + strCount(str.substring(sub.length()), sub);
         }
     }
 }
