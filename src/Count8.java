@@ -4,6 +4,8 @@ public class Count8 {
         int secondDigit =  (n / 10) % 10;
         if (n == 0){
             return 0;
+        } else if (lastDigit == 8 && lastDigit-1 ==8) {
+            return 2;
         }
     }
 }
