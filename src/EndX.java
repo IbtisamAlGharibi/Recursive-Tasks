@@ -3,7 +3,7 @@ public class EndX {
         if (str.length()==0){
             return " ";
         }else if (str.charAt(0) == 'x'){
-            return String.valueOf(str.charAt(str.length()) == 'x');
+            return  endX(str.substring(1)) + "x";
         } else if (!(str.charAt(0) == 'x')) {
             return str;
         }
