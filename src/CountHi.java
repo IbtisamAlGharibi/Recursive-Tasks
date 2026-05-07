@@ -7,6 +7,6 @@ public class CountHi {
         } else if (!(str.substring(0, 2) =="Hi")) {
             return 1 + countHi(str.substring(2));
         }
-
+        return countHi(str.substring(1));
     }
 }
