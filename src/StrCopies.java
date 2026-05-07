@@ -7,5 +7,6 @@ public class StrCopies {
         } else if (str.substring(0,2).equals(sub)){
             return strCopies(str.substring(1), sub, n - 1);
         }
+        return strCopies(str.substring(1), sub, n);
     }
 }
